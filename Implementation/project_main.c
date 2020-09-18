@@ -95,7 +95,7 @@ void calculator_menu(void)
             
             
             break;
-	case POWER:printf("%f",power(calculator_operand1, calculator_operand2)); break;
+	
 	case POWER:printf("%f",power(calculator_operand1, calculator_operand2)); break;
 	case LOG:printf("%f",logten(calculator_operand1));break;
 	case EXP:printf("%f",exponent(calculator_operand1));break;
