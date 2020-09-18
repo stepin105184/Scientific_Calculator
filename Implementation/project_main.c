@@ -89,7 +89,9 @@ void calculator_menu(void)
             getchar();
             break;
         case DIVIDE:
-            printf(divide(calculator_operand1, calculator_operand2));
+            printf(("\n\t%d * %d = %d\nEnter to continue", 
+            calculator_operand1, 
+            calculator_operand2,divide(calculator_operand1, calculator_operand2));
             
             
             break;
