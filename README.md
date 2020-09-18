@@ -5,3 +5,4 @@
 ![C/C++ CI](https://github.com/99002655/Scientific_Calculator/workflows/C/C++%20CI/badge.svg)
 
 ![cppcheck-action](https://github.com/99002655/Scientific_Calculator/workflows/cppcheck-action/badge.svg)
+![Unit testing](https://github.com/99002655/Scientific_Calculator/workflows/Unit%20testing/badge.svg)
