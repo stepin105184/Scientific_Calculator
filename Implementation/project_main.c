@@ -13,7 +13,7 @@ int calculator_operand2 = 0;
 float calculator_operand3 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE,POWER,LOG,EXP,SQUAREROOT,CUBE,SINE,COSE,TAN,SINEH,COSEH,TANH,ISINE,ICOSE,ITAN,EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE,POWER,LOG,EXP,SQUAREROOT,CUBE,SINE,COS,TAN,SINEH,COSEH,TANH,ISINE,ICOSE,ITAN,EXIT };
 /* Display the menu of operations supported */
 void calculator_menu(void);
 /* Verifies the requested operations validity */
