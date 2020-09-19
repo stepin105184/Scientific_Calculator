@@ -13,7 +13,7 @@ void test_divide(void);
 void test_power(void);
 void test_log(void);
 void test_exponent(void);
-void test_squreroot(void);
+void test_squareroot(void);
 void test_cuberoot(void);
 void test_sine(void);
 void test_cosine(void);
