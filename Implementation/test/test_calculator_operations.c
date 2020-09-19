@@ -101,7 +101,7 @@ void test_log(void) {
   
 }
 void test_exponent(void) {
-  CU_ASSERT(1.64== exponent(.5));
+  CU_ASSERT(1.648721== exponent(.5));
   
 }
 void test_squareroot(void) {
@@ -117,11 +117,11 @@ void test_sine(void) {
   
 }
 void test_cosine(void) {
-  CU_ASSERT(0== cosine(90));
+  CU_ASSERT(0.707388== cosine(45));
   
 }
 void test_tangent(void) {
-  CU_ASSERT(1== tangent(45));
+  CU_ASSERT(.99924== tangent(45));
   
 }
 void test_sineh(void) {
